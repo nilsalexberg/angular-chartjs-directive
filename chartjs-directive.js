@@ -7,7 +7,7 @@ angular.module('chartjs-directive', []).
 
     return {
       restrict: 'E',
-      template: '<canvas></canvas>',
+      template: '<div style="width: 100%"><canvas></canvas></div>',
       scope: {
         chartObject: "=value"
       },
